@@ -12,64 +12,6 @@ body {
     font-style: normal;
 }
 
-.pulse {
-    transition: transform 0.5s ease;
-}
-
-.pulse:hover {
-    animation: pulse-animation 0.9s forwards;
-}
-
-.pulse:not(:hover) {
-    animation: pulse-animation-reverse 0.9s forwards;
-}
-
-@keyframes pulse-animation {
-    0% {
-        transform: scale(1);
-        box-shadow: 0px 0px 0px 15px #00000042;
-        
-    }
-
-    40% {
-        transform: scale(1.1);
-        box-shadow: 0px 0px 0px 0px #00000042;
-    }
-
-    60% {
-        transform: scale(1.07);
-        box-shadow: 0px 0px 0px 0px #00000042;
-    }
-
-    100% {
-        transform: scale(1.1);
-        box-shadow: 0px 0px 0px 0px #00000042;
-    }
-}
-
-@keyframes pulse-animation-reverse {
-    0% {
-        transform: scale(1.1);
-        box-shadow: 0px 0px 0px 0px #00000042;
-    }
-
-    40% {
-        transform: scale(1);
-        box-shadow: 0px 0px 0px 15px #00000042;
-    }
-
-    60% {
-        transform: scale(1.05);
-        box-shadow: 0px 0px 0px 0px #00000042;
-    }
-
-    100% {
-        transform: scale(1);
-        box-shadow: 0px 0px 0px 15px #00000042;
-    }
-}
-
-
 
 span {
     font-family: 'YekanBakh';
@@ -227,7 +169,7 @@ span {
 
     }
 
-    .img2_paragraph{
+    .img2_paragraph {
         width: 336.79px;
     }
 
@@ -237,6 +179,64 @@ span {
 
 
 @media screen and (min-width:1069px) {
+
+    .pulse {
+        transition: transform 0.5s ease;
+    }
+
+    .pulse:hover {
+        animation: pulse-animation 0.9s forwards;
+    }
+
+    .pulse:not(:hover) {
+        animation: pulse-animation-reverse 0.9s forwards;
+    }
+
+    @keyframes pulse-animation {
+        0% {
+            transform: scale(1);
+            box-shadow: 0px 0px 0px 15px #00000042;
+
+        }
+
+        40% {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 0px 0px #00000042;
+        }
+
+        60% {
+            transform: scale(1.07);
+            box-shadow: 0px 0px 0px 0px #00000042;
+        }
+
+        100% {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 0px 0px #00000042;
+        }
+    }
+
+    @keyframes pulse-animation-reverse {
+        0% {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 0px 0px #00000042;
+        }
+
+        40% {
+            transform: scale(1);
+            box-shadow: 0px 0px 0px 15px #00000042;
+        }
+
+        60% {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 0px 0px #00000042;
+        }
+
+        100% {
+            transform: scale(1);
+            box-shadow: 0px 0px 0px 15px #00000042;
+        }
+    }
+
 
 
     .section1Img {
@@ -248,6 +248,7 @@ span {
         box-shadow: 0px 0px 0px 15px #00000042;
 
     }
+
     .section2Img {
         width: 524px;
         height: 557px;
@@ -256,7 +257,7 @@ span {
         box-shadow: 0px 0px 0px 15px #00000042;
     }
 
-    .img2_paragraph{
+    .img2_paragraph {
         width: 524px;
     }
 
